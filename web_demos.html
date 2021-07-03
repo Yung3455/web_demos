@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>前端入门项目</title>
+    <style>
+        #WebItem {
+            width: 500px;
+            height: 500px;
+            font-size: 28px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgb(102, 208, 250);
+        }
+        
+        .wrap {
+            width: 350px;
+            height: 350px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 65px;
+            border-radius: 10%;
+            background-color: rgb(156, 225, 247);
+        }
+        
+        button {
+            width: 200px;
+            height: 30px;
+            margin: 30px 75px;
+            border-radius: 5px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="WebItem">游戏菜单
+        <div class="wrap">
+            <button><a href="https://yung3455.github.io/Mine/mine.html">扫雷小游戏</a></button>
+            <button><a href="https://yung3455.github.io/snake/snake.html">贪吃蛇小游戏</a></button>
+            <button><a href="https://yung3455.github.io/Canvas_plane/plane.html">简易版打飞机</a></button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        new Vue({
+            el: '#WebItem',
+            data: function() {
+
+            },
+            methods: {
+
+            }
+        })
+    </script>
+</body>
+
+</html>
